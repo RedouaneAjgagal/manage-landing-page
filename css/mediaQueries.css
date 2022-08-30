@@ -125,7 +125,7 @@
         background-image: url('../images/bg-simplify-section-mobile.svg');
         background-position: left 0rem;
     }
-    .footerOne section {
+    .footerOne div {
         flex-direction: column;
         justify-content: center;
         gap: 1rem;
