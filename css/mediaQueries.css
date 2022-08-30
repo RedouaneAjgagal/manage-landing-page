@@ -1,0 +1,186 @@
+@media (max-width:1034px) {
+    header {
+        background-image: url('../images/bg-tablet-pattern.svg');
+        background-repeat: no-repeat;
+        background-position: right -10rem top -3.5rem;
+        background-size: contain;
+    }
+    nav ul {
+        gap: 1.5rem;
+    }
+    header section article h1 {
+        font-size: 2.5rem;
+    }
+    header section div img {
+        max-width: 30rem;
+    }
+    .features {
+        gap: 6rem;
+    }
+    .swiper-pagination-bullet {
+        display: inline-block;
+        background-color: #fff;
+        border: solid 2px #f25f3a;
+        opacity: 1;
+        width: .75rem;
+        height: .75rem;
+    }
+    .swiper-pagination-bullet-active {
+        background-color: #f25f3a;
+        border: solid 2px #f25f3a;
+    }
+    .swiper-pagination {
+        margin-top: 1.5rem;
+        position: static;
+    }
+    .footer-links {
+        gap: 6rem;
+    }
+}
+@media (max-width:867px) {
+    body {
+        text-align: center;
+    }
+    body.no-scroll {
+        overflow: hidden;
+    }
+    header {
+        background-image: url('../images/bg-tablet-pattern.svg');
+        background-repeat: no-repeat;
+        background-position: right -5rem top -5rem;
+        background-size: contain;
+    }
+    .navbarLinks {
+        position: fixed;
+        top: -100%;
+        left: 50%;
+        flex-direction: column;
+        gap: 3rem;
+        padding: 5rem 1rem;
+        transform: translate(-50%); 
+        background-color: #fff;
+        border-radius: .5rem;
+        width: 95%;
+        z-index: 3;
+        transition: .3s;
+    }
+    .navbarLinks.open {
+        top: 7rem;
+        box-shadow: 0 20rem 20rem 13rem #23232370;
+    }
+    .navbarLinks li a {
+        font-weight: 700;
+    }
+    .navbarBtn {
+        display: none;
+    }
+    .trigger {
+        display: inline;
+        border: none;
+        background: transparent;
+        width: 1.5rem;
+        position: absolute;
+        right: 1rem;
+        cursor: pointer;
+    }
+    .trigger img {
+        width: 100%;
+    }
+    header section {
+        flex-direction: column;
+        margin-bottom: 4rem;
+    }
+    header section article {
+        order: 1;
+        max-width: 35rem;
+    }
+    header section article h1 {
+        font-size: 2.2rem;
+    }
+    .features {
+        flex-direction: column;
+        gap: 3.5rem;
+    }
+    .different {
+        max-width: 35rem;
+        margin: auto;
+    }
+    .featuresHeader {
+        background-color: #f25f3a17;
+        width: 105%;
+        border-radius: 10rem 0 0 10rem;
+    }
+    .featuresHeader h3{
+        padding-right: 1rem;
+    }
+    .featuresCtn {
+        text-align: left;
+    }
+    .featuresCtn p {
+        padding-left: 0;
+    }
+
+
+    .footerOne {
+        background-image: url('../images/bg-simplify-section-mobile.svg');
+        background-position: left 0rem;
+    }
+    .footerOne section {
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+    }
+    .footer-container {
+        flex-direction: column;
+        justify-content: center;
+        gap: 2rem;
+        max-width: 35rem;
+    }
+    .footer-brand {
+        gap: 2rem;
+        order: 3;
+    }
+    .footer-brand div {
+        justify-content: center;
+        gap: 1.85rem;
+    }
+    .footer-brand > a {
+        order: 1;
+    }
+    .footer-brand > div > a > img {
+        width: 2rem;
+    }
+    
+    .footer-links {
+        justify-content: center;
+        text-align: left;
+        order: 2;
+    }
+    .footer-email {
+        order: 1;
+    }
+    .footer-email form {
+        justify-content: center;
+    }
+    .footer-email form input {
+        width: 100%;
+    }
+    .footer-container p {
+        bottom: 1rem;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+    }
+}
+@media (max-width:486px) {
+    header {
+        background-position: right -4rem top -1rem;
+    }
+    header section div img {
+        max-width: 20rem;
+    }
+    .navbarLinks {
+        gap: 1.5rem;
+        padding: 3.5rem 1rem;
+    }
+}

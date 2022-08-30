@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+h1, h2, h3 {
+    color: #242d52;
+}
+p {
+    color: #9095a7;
+    line-height: 1.6;
+}
+/* header - nav */
+header {
+    background-image: url('../images/bg-tablet-pattern.svg');
+    background-repeat: no-repeat;
+    background-position: right -5rem top -12rem;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 75rem;
+    margin: auto;
+    padding: 3rem 1rem;
+}
+.manage-logo {
+    max-width: 100%;
+    margin-bottom: -.6rem;
+}
+nav ul {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+nav ul li a {
+    text-decoration: none;
+    color: hsl(233, 12%, 13%);
+    transition: .2s;
+}
+nav ul li a:hover {
+    color: #9095a7;
+}
+.primaryBtn {
+    padding: .8rem 1.7rem;
+    border-radius: 10rem;
+    background-color: #f25f3a;
+    color: #fff;
+    text-decoration: none;
+    box-shadow: 0 0.4rem 0.5rem #f25f3a52;
+    transition: .2s;
+}
+.primaryBtn:hover {
+    background-color: #f25f3ac4;
+}
+.trigger {
+    display: none;
+}
+/* header - section */
+header section {
+    padding: 1rem;
+    max-width: 75rem;
+    margin: auto;
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+header section article {
+    max-width: 26rem;
+}
+header section article h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+header section article p {
+    margin-bottom: 3rem;
+}
+header section div img {
+    max-width: 35rem;
+}
+/* main - The different about Manage */
+main {
+    position: relative;
+    overflow: hidden;
+}
+.features {
+    max-width: 75rem;
+    margin: auto;
+    padding: 5rem 1rem;
+    display: flex;
+    justify-content: space-around;
+    gap: 10rem;
+}
+.different {
+    max-width: 26rem;
+}
+.different h2 {
+    font-size: 2.2rem;
+    margin-bottom: 2rem;
+}
+.featuresCtn {
+    margin-bottom: 2.5rem;
+}
+.featuresHeader {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+.featuresHeader span {
+    background-color: #f25f3a;
+    color: #fff;
+    padding: 0.5rem 1.5rem;
+    border-radius: 10rem;
+}
+.featuresCtn p {
+    padding-left: 5.3rem;
+}
+/* main - reviews */
+.reviews {
+    max-width: 85rem;
+    margin: auto;
+    padding: 3rem 1rem;
+}
+.reviews h2 {
+    text-align: center;
+    font-size: 2.2rem;
+    margin-bottom: 6rem;
+}
+.reviews section {
+    display: flex;
+    height: 18rem;
+    text-align: center;
+    position: relative;
+}
+.reviews section article {
+    padding: 2rem;
+    background-color: #f8f8f8;
+    position: relative;
+    border-radius: .5rem;
+}
+.reviews section article img {
+    max-width: 4.5rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -2.2rem;
+}
+.reviews section article h3 {
+    margin: 1.5rem 0 1.5rem;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.swiper-pagination-bullet {
+    display: none;
+}
+
+/* footer - first footer */
+.footerOne {
+    background-color: #f25f3a;
+    margin-top: 13rem;
+    background-image: url('../images/bg-simplify-section-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: left 22rem bottom -1rem;
+}
+.footerOne section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 75rem;
+    margin: auto;
+    padding: 3rem 1rem;
+}
+.footerOne section h3 {
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: 300;
+    max-width: 35rem;
+}
+.footerOne section a {
+    background-color: #fff;
+    box-shadow: 0 0.4rem 0.5rem #3f19101a;
+    color: #f25f3a;
+}
+.footerOne section a:hover {
+    background-color: rgba(255, 255, 255, 0.836);
+    color: #f25f3a;
+}
+/* footer - second footer */
+.footerTwo {
+    background-color: #232323;
+}
+.footer-container {
+    max-width: 75rem;
+    margin: auto;
+    padding: 4rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.footer-brand {
+   display: flex; 
+   flex-direction: column;
+   justify-content: space-between;
+}
+.footer-brand div {
+    display: flex;
+    align-items: center;
+    gap: .85rem;
+}
+.footer-links {
+    display: flex;
+    gap: 10rem;
+}
+.footer-links ul {
+    display: flex;
+    flex-direction: column;
+    gap: .9rem;
+    list-style: none;
+}
+.footer-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: .2s;
+}
+.footer-links ul li a:hover {
+    color: #f25f3a;
+}
+.footer-email {
+    position: relative;
+}
+.footer-email form{
+    display: flex;
+    align-self: center;
+    gap: .5rem;
+}
+.footer-email form input {
+    padding: 0 1rem;
+    border-radius: 10rem;
+    border: none;
+}
+
+.footer-email form button {
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 0.4rem 0.5rem rgba(39, 39, 39, 0.699);
+}
+.errMsg {
+    color: #f44336b9;
+    font-style: italic;
+    font-size: .8rem;
+    position: absolute;
+    left: 1rem;
+    top: 2.9rem;
+}
+
+
+
+.footer-container p {
+    position: absolute;
+    right: 1rem;
+    bottom: 4rem;
+    font-size: .85rem;
+}
+/* .swiper {
+    width: 600px;
+    height: 300px;
+} */
+ 
