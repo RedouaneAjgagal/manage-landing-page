@@ -8,10 +8,10 @@
     nav ul {
         gap: 1.5rem;
     }
-    header section article h1 {
+    header article section h1 {
         font-size: 2.5rem;
     }
-    header section div img {
+    header article div img {
         max-width: 30rem;
     }
     .features {
@@ -86,15 +86,15 @@
     .trigger img {
         width: 100%;
     }
-    header section {
+    header article {
         flex-direction: column;
         margin-bottom: 4rem;
     }
-    header section article {
+    header article section {
         order: 1;
         max-width: 35rem;
     }
-    header section article h1 {
+    header article section h1 {
         font-size: 2.2rem;
     }
     .features {
@@ -176,7 +176,7 @@
     header {
         background-position: right -4rem top -1rem;
     }
-    header section div img {
+    header article div img {
         max-width: 20rem;
     }
     .navbarLinks {
