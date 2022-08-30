@@ -60,7 +60,7 @@ nav ul li a:hover {
     display: none;
 }
 /* header - section */
-header section {
+header article {
     padding: 1rem;
     max-width: 75rem;
     margin: auto;
@@ -69,17 +69,17 @@ header section {
     justify-content: space-between;
     align-items: center;
 }
-header section article {
+header article section {
     max-width: 26rem;
 }
-header section article h1 {
+header article section h1 {
     font-size: 3rem;
     margin-bottom: 2rem;
 }
-header section article p {
+header article section p {
     margin-bottom: 3rem;
 }
-header section div img {
+header article div img {
     max-width: 35rem;
 }
 /* main - The different about Manage */
@@ -131,26 +131,26 @@ main {
     font-size: 2.2rem;
     margin-bottom: 6rem;
 }
-.reviews section {
+.reviews article {
     display: flex;
     height: 18rem;
     text-align: center;
     position: relative;
 }
-.reviews section article {
+.reviews article div {
     padding: 2rem;
     background-color: #f8f8f8;
     position: relative;
     border-radius: .5rem;
 }
-.reviews section article img {
+.reviews article div img {
     max-width: 4.5rem;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
     top: -2.2rem;
 }
-.reviews section article h3 {
+.reviews article div h3 {
     margin: 1.5rem 0 1.5rem;
 }
 .btn {
@@ -261,17 +261,9 @@ main {
     left: 1rem;
     top: 2.9rem;
 }
-
-
-
 .footer-container p {
     position: absolute;
     right: 1rem;
     bottom: 4rem;
     font-size: .85rem;
 }
-/* .swiper {
-    width: 600px;
-    height: 300px;
-} */
- 
